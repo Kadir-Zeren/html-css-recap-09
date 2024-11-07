@@ -38,15 +38,39 @@ h2 i {
   color: red;
 }
 /*!-----PSEUDO CLASSES ------*/
+ul.pseudo li {
+  background-color: darkgray;
+  font-weight: 700;
+}
 
-ul.pseudo {
+ul.pseudo li:first-child {
+  color: blue;
+}
+
+ul.pseudo li:last-child {
+  color: green;
+}
+
+ul.pseudo li:nth-child(5) {
+  color: purple;
+  font-weight: 300;
+}
+
+ul.pseudo li:nth-child(odd) {
+  color: hotpink;
+  background-color: lightgray;
+}
+
+ul.pseudo li:nth-child(even) {
+  color: lightsalmon;
 }
 
 /*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec*/
-/* p.x .y #z {
+/* p.x .y #z{
 }
 <p class="x">
 <div class="y">
 <div id="z"></div>
+<div class="k"></div>
 </div>
 </p>  */
