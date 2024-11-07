@@ -14,3 +14,16 @@ ul {
 
   list-style-image: url(../img/igloo-solid.svg);
 }
+
+h2 {
+  color: blueviolet;
+}
+
+h2 i {
+  font-size: 40px;
+}
+
+.fa-solid {
+  color: red;
+}
+
