@@ -2,7 +2,8 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
-ul {
+/** class'i language olan ul elementini sec */
+ul.languages {
   font-family: "Bruno Ace SC", cursive;
   /*? Madde imi stilleri */
   list-style-type: circle;
@@ -36,3 +37,16 @@ h2 i {
   /** iconlarin rengini red yap */
   color: red;
 }
+/*!-----PSEUDO CLASSES ------*/
+
+ul.pseudo {
+}
+
+/*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec*/
+/* p.x .y #z {
+}
+<p class="x">
+<div class="y">
+<div id="z"></div>
+</div>
+</p>  */
