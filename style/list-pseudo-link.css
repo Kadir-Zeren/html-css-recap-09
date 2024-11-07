@@ -65,6 +65,18 @@ ul.pseudo li:nth-child(even) {
   color: lightsalmon;
 }
 
+/*? Fare ile li'lerin üzerine gelindiğinde*/
+ul.pseudo li:hover {
+  /* opacity: 0.5; */
+  background-color: black;
+  cursor: pointer;
+  /* display: inline-block; */
+}
+/*? Farenin sol tuşu ile bir li'y tiklanidiginda*/
+ul.pseudo li:active {
+  background-color: green;
+}
+
 /*? class'i x olan p elementinin icerinde .y class'inin içindeki z id'li elementi sec*/
 /* p.x .y #z{
 }
