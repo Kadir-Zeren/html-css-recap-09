@@ -65,6 +65,11 @@ ul.pseudo li:nth-child(even) {
   color: lightsalmon;
 }
 
+/*? Tek degilse */
+/* ul.pseudo li:not(odd) {
+background-color: green;
+} */
+
 /*? Fare ile li'lerin üzerine gelindiğinde*/
 ul.pseudo li:hover {
   /* opacity: 0.5; */
