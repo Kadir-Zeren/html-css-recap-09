@@ -131,3 +131,26 @@ nav.links a:hover {
 .p-elements::first-letter {
   font-size: 30px;
 }
+
+ul.before-after li::before {
+  content: "👏";
+}
+
+ul.before-after li:nth-child(3)::before {
+  content: "🚘";
+}
+
+ul.before-after li:last-child::after {
+  content: "🏎️";
+}
+
+ul.before-after li:nth-child(2)::after {
+  content: " Nice Car";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 600;
+  content: "\f53a";
+}
+
+ul.before-after li:nth-child(3):hover::after {
+  content: "🚘";
+}
