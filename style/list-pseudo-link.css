@@ -122,3 +122,12 @@ nav.links a:hover {
 <div class="k"></div>
 </div>
 </p>  */
+
+/*! ------ PSEUDO ELEMENTS ------ */
+.p-elements::first-line {
+  color: red;
+}
+
+.p-elements::first-letter {
+  font-size: 30px;
+}
